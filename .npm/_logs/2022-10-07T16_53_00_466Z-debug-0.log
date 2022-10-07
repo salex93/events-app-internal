@@ -1,0 +1,51 @@
+0 verbose cli /usr/local/nvm/versions/node/v16.4.0/bin/node /usr/local/nvm/versions/node/v16.4.0/bin/npm
+1 info using npm@8.19.2
+2 info using node@v16.4.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/nvm/versions/node/v16.4.0/lib/node_modules/npm/npmrc Completed in 10ms
+6 timing config:load:builtin Completed in 10ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:/home/user225/.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/usr/local/nvm/versions/node/v16.4.0/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 1ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 21ms
+18 timing npm:load:configload Completed in 22ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 2ms
+21 verbose title npm run
+22 verbose argv "run"
+23 timing npm:load:setTitle Completed in 2ms
+24 timing config:load:flatten Completed in 3ms
+25 timing npm:load:display Completed in 5ms
+26 verbose logfile logs-max:10 dir:/home/user225/.npm/_logs
+27 verbose logfile /home/user225/.npm/_logs/2022-10-07T16_53_00_466Z-debug-0.log
+28 timing npm:load:logFile Completed in 7ms
+29 timing npm:load:timers Completed in 0ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 40ms
+32 silly logfile start cleaning logs, removing 2 files
+33 timing command:run Completed in 4ms
+34 verbose stack Error: ENOENT: no such file or directory, open '/home/user225/package.json'
+35 verbose cwd /home/user225
+36 verbose Linux 5.10.133+
+37 verbose node v16.4.0
+38 verbose npm  v8.19.2
+39 error code ENOENT
+40 error syscall open
+41 error path /home/user225/package.json
+42 error errno -2
+43 error enoent ENOENT: no such file or directory, open '/home/user225/package.json'
+44 error enoent This is related to npm not being able to find a file.
+44 error enoent
+45 verbose exit -2
+46 timing npm Completed in 69ms
+47 verbose code -2
+48 error A complete log of this run can be found in:
+48 error     /home/user225/.npm/_logs/2022-10-07T16_53_00_466Z-debug-0.log

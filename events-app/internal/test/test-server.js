@@ -95,7 +95,7 @@ describe('DELETE /event/like', function () {
   afterEach(function() {
     dbStub.restore();
   });
-  it('un-likes an event', function (done) {
+  it('likes an event', function (done) {
     dbStub.returns(Promise.resolve({ events: []}));
     request(app)
       .delete('/event/like')

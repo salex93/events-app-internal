@@ -1,0 +1,362 @@
+0 verbose cli /usr/local/nvm/versions/node/v16.4.0/bin/node /usr/local/nvm/versions/node/v16.4.0/bin/npm
+1 info using npm@8.19.2
+2 info using node@v16.4.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/local/nvm/versions/node/v16.4.0/lib/node_modules/npm/npmrc Completed in 7ms
+6 timing config:load:builtin Completed in 7ms
+7 timing config:load:cli Completed in 9ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/user225/.cache/typescript/3.8/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:/home/user225/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/usr/local/nvm/versions/node/v16.4.0/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 2ms
+18 timing config:load Completed in 27ms
+19 timing npm:load:configload Completed in 27ms
+20 timing npm:load:mkdirpcache Completed in 2ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm install @types/asn1@ts3.8 @types/assert-plus@ts3.8 @types/aws4@ts3.8 @types/caseless@ts3.8 @types/dashdash@ts3.8 @types/deep-equal@ts3.8 @types/define-properties@ts3.8 @types/extsprintf@ts3.8 @types/forever-agent@ts3.8 @types/function-bind@ts3.8 @types/getpass@ts3.8 @types/has@ts3.8 @types/is-arguments@ts3.8 @types/is-date-object@ts3.8 @types/is-regex@ts3.8 @types/isstream@ts3.8 @types/jsbn@ts3.8 @types/json-schema@ts3.8 @types/json-stringify-safe@ts3.8 @types/lodash@ts3.8 @types/mkdirp@ts3.8 @types/object-keys@ts3.8 @types/psl@ts3.8 @types/punycode@ts3.8 @types/sshpk@ts3.8 @types/tough-cookie@ts3.8 @types/uglify-js@ts3.8 @types/verror@ts3.8 @types/wordwrap@ts3.8
+23 verbose argv "install" "--ignore-scripts" "@types/asn1@ts3.8" "@types/assert-plus@ts3.8" "@types/aws4@ts3.8" "@types/caseless@ts3.8" "@types/dashdash@ts3.8" "@types/deep-equal@ts3.8" "@types/define-properties@ts3.8" "@types/extsprintf@ts3.8" "@types/forever-agent@ts3.8" "@types/function-bind@ts3.8" "@types/getpass@ts3.8" "@types/has@ts3.8" "@types/is-arguments@ts3.8" "@types/is-date-object@ts3.8" "@types/is-regex@ts3.8" "@types/isstream@ts3.8" "@types/jsbn@ts3.8" "@types/json-schema@ts3.8" "@types/json-stringify-safe@ts3.8" "@types/lodash@ts3.8" "@types/mkdirp@ts3.8" "@types/object-keys@ts3.8" "@types/psl@ts3.8" "@types/punycode@ts3.8" "@types/sshpk@ts3.8" "@types/tough-cookie@ts3.8" "@types/uglify-js@ts3.8" "@types/verror@ts3.8" "@types/wordwrap@ts3.8" "--save-dev" "--user-agent" "typesInstaller/3.8.3"
+24 timing npm:load:setTitle Completed in 6ms
+25 timing config:load:flatten Completed in 4ms
+26 timing npm:load:display Completed in 5ms
+27 verbose logfile logs-max:10 dir:/home/user225/.npm/_logs
+28 verbose logfile /home/user225/.npm/_logs/2022-10-07T16_46_42_110Z-debug-0.log
+29 timing npm:load:logFile Completed in 6ms
+30 timing npm:load:timers Completed in 1ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 49ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile start cleaning logs, removing 3 files
+35 silly logfile done cleaning log files
+36 timing idealTree:init Completed in 48ms
+37 timing arborist:ctor Completed in 0ms
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fhas 262ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fjson-schema 266ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2flodash 316ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fmkdirp 320ms (cache miss)
+42 http fetch GET 200 https://registry.npmjs.org/@types%2fis-regex 434ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/@types%2fjson-stringify-safe 445ms (cache miss)
+44 http fetch GET 200 https://registry.npmjs.org/@types%2fdashdash 453ms (cache miss)
+45 http fetch GET 200 https://registry.npmjs.org/@types%2fgetpass 452ms (cache miss)
+46 http fetch GET 200 https://registry.npmjs.org/@types%2fforever-agent 477ms (cache miss)
+47 http fetch GET 200 https://registry.npmjs.org/@types%2ffunction-bind 486ms (cache miss)
+48 http fetch GET 200 https://registry.npmjs.org/@types%2fis-arguments 492ms (cache miss)
+49 http fetch GET 200 https://registry.npmjs.org/@types%2fisstream 492ms (cache miss)
+50 http fetch GET 200 https://registry.npmjs.org/@types%2fpunycode 491ms (cache miss)
+51 http fetch GET 200 https://registry.npmjs.org/@types%2fjsbn 501ms (cache miss)
+52 http fetch GET 200 https://registry.npmjs.org/@types%2fextsprintf 510ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/@types%2fdefine-properties 512ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/@types%2fverror 512ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/@types%2fuglify-js 518ms (cache miss)
+56 http fetch GET 200 https://registry.npmjs.org/@types%2fpsl 588ms (cache miss)
+57 http fetch GET 200 https://registry.npmjs.org/@types%2fobject-keys 590ms (cache miss)
+58 http fetch GET 200 https://registry.npmjs.org/@types%2ftough-cookie 590ms (cache revalidated)
+59 http fetch GET 200 https://registry.npmjs.org/@types%2fis-date-object 725ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/@types%2fwordwrap 717ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/@types%2fdeep-equal 730ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/@types%2fsshpk 723ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/@types%2fcaseless 761ms (cache revalidated)
+64 http fetch GET 200 https://registry.npmjs.org/@types%2faws4 774ms (cache revalidated)
+65 http fetch GET 200 https://registry.npmjs.org/@types%2fasn1 963ms (cache revalidated)
+66 http fetch GET 200 https://registry.npmjs.org/@types%2fassert-plus 1160ms (cache revalidated)
+67 timing idealTree:userRequests Completed in 1167ms
+68 silly idealTree buildDeps
+69 silly fetch manifest @types/has@1.0.0
+70 silly fetch manifest @types/json-schema@7.0.9
+71 silly fetch manifest @types/lodash@4.14.179
+72 silly fetch manifest @types/mkdirp@1.0.2
+73 silly fetch manifest @types/is-regex@1.0.0
+74 silly fetch manifest @types/json-stringify-safe@5.0.0
+75 silly fetch manifest @types/dashdash@1.14.1
+76 silly fetch manifest @types/getpass@0.1.1
+77 silly fetch manifest @types/forever-agent@0.6.1
+78 silly fetch manifest @types/function-bind@1.1.6
+79 silly fetch manifest @types/is-arguments@1.0.0
+80 silly fetch manifest @types/isstream@0.1.0
+81 silly fetch manifest @types/punycode@2.1.0
+82 silly fetch manifest @types/jsbn@1.2.30
+83 silly fetch manifest @types/extsprintf@1.4.2
+84 silly fetch manifest @types/define-properties@1.1.3
+85 silly fetch manifest @types/verror@1.10.5
+86 silly fetch manifest @types/uglify-js@3.13.1
+87 silly fetch manifest @types/psl@1.1.0
+88 silly fetch manifest @types/object-keys@1.0.1
+89 silly fetch manifest @types/tough-cookie@4.0.1
+90 silly fetch manifest @types/is-date-object@1.0.2
+91 silly fetch manifest @types/wordwrap@1.0.1
+92 silly fetch manifest @types/deep-equal@1.0.1
+93 silly fetch manifest @types/sshpk@1.17.0
+94 silly fetch manifest @types/caseless@0.12.2
+95 silly fetch manifest @types/aws4@1.5.2
+96 silly fetch manifest @types/asn1@0.2.0
+97 silly fetch manifest @types/assert-plus@1.0.4
+98 silly placeDep ROOT @types/asn1@0.2.0 OK for:  want: 0.2.0
+99 silly placeDep ROOT @types/assert-plus@1.0.4 OK for:  want: 1.0.4
+100 silly placeDep ROOT @types/aws4@1.5.2 OK for:  want: 1.5.2
+101 silly placeDep ROOT @types/caseless@0.12.2 REPLACE for:  want: 0.12.2
+102 silly placeDep ROOT @types/dashdash@1.14.1 OK for:  want: 1.14.1
+103 silly placeDep ROOT @types/deep-equal@1.0.1 OK for:  want: 1.0.1
+104 silly placeDep ROOT @types/define-properties@1.1.3 OK for:  want: 1.1.3
+105 silly placeDep ROOT @types/extsprintf@1.4.2 OK for:  want: 1.4.2
+106 silly placeDep ROOT @types/forever-agent@0.6.1 OK for:  want: 0.6.1
+107 silly placeDep ROOT @types/function-bind@1.1.6 OK for:  want: 1.1.6
+108 silly placeDep ROOT @types/getpass@0.1.1 OK for:  want: 0.1.1
+109 silly placeDep ROOT @types/has@1.0.0 OK for:  want: 1.0.0
+110 silly placeDep ROOT @types/is-arguments@1.0.0 OK for:  want: 1.0.0
+111 silly placeDep ROOT @types/is-date-object@1.0.2 OK for:  want: 1.0.2
+112 silly placeDep ROOT @types/is-regex@1.0.0 OK for:  want: 1.0.0
+113 silly placeDep ROOT @types/isstream@0.1.0 OK for:  want: 0.1.0
+114 silly placeDep ROOT @types/jsbn@1.2.30 OK for:  want: 1.2.30
+115 silly placeDep ROOT @types/json-schema@7.0.9 OK for:  want: 7.0.9
+116 silly placeDep ROOT @types/json-stringify-safe@5.0.0 OK for:  want: 5.0.0
+117 silly placeDep ROOT @types/lodash@4.14.179 OK for:  want: 4.14.179
+118 silly placeDep ROOT @types/mkdirp@1.0.2 OK for:  want: 1.0.2
+119 silly placeDep ROOT @types/object-keys@1.0.1 OK for:  want: 1.0.1
+120 silly placeDep ROOT @types/psl@1.1.0 OK for:  want: 1.1.0
+121 silly placeDep ROOT @types/punycode@2.1.0 OK for:  want: 2.1.0
+122 silly placeDep ROOT @types/sshpk@1.17.0 OK for:  want: 1.17.0
+123 silly placeDep ROOT @types/tough-cookie@4.0.1 REPLACE for:  want: 4.0.1
+124 silly placeDep ROOT @types/uglify-js@3.13.1 OK for:  want: 3.13.1
+125 silly placeDep ROOT @types/verror@1.10.5 OK for:  want: 1.10.5
+126 silly placeDep ROOT @types/wordwrap@1.0.1 OK for:  want: 1.0.1
+127 silly fetch manifest source-map@^0.6.1
+128 http fetch GET 200 https://registry.npmjs.org/source-map 57ms (cache miss)
+129 timing idealTree:#root Completed in 139ms
+130 timing idealTree:node_modules/@types/asn1 Completed in 0ms
+131 timing idealTree:node_modules/@types/assert-plus Completed in 0ms
+132 timing idealTree:node_modules/@types/aws4 Completed in 0ms
+133 timing idealTree:node_modules/@types/caseless Completed in 0ms
+134 timing idealTree:node_modules/@types/dashdash Completed in 0ms
+135 timing idealTree:node_modules/@types/deep-equal Completed in 0ms
+136 timing idealTree:node_modules/@types/define-properties Completed in 0ms
+137 timing idealTree:node_modules/@types/extsprintf Completed in 0ms
+138 timing idealTree:node_modules/@types/forever-agent Completed in 0ms
+139 timing idealTree:node_modules/@types/function-bind Completed in 0ms
+140 timing idealTree:node_modules/@types/getpass Completed in 0ms
+141 timing idealTree:node_modules/@types/has Completed in 0ms
+142 timing idealTree:node_modules/@types/is-arguments Completed in 0ms
+143 timing idealTree:node_modules/@types/is-date-object Completed in 0ms
+144 timing idealTree:node_modules/@types/is-regex Completed in 0ms
+145 timing idealTree:node_modules/@types/isstream Completed in 0ms
+146 timing idealTree:node_modules/@types/jsbn Completed in 0ms
+147 timing idealTree:node_modules/@types/json-schema Completed in 0ms
+148 timing idealTree:node_modules/@types/json-stringify-safe Completed in 0ms
+149 timing idealTree:node_modules/@types/lodash Completed in 0ms
+150 timing idealTree:node_modules/@types/mkdirp Completed in 0ms
+151 timing idealTree:node_modules/@types/object-keys Completed in 0ms
+152 timing idealTree:node_modules/@types/psl Completed in 0ms
+153 timing idealTree:node_modules/@types/punycode Completed in 0ms
+154 timing idealTree:node_modules/@types/sshpk Completed in 0ms
+155 timing idealTree:node_modules/@types/tough-cookie Completed in 0ms
+156 silly placeDep ROOT source-map@0.6.1 OK for: @types/uglify-js@3.13.1 want: ^0.6.1
+157 timing idealTree:node_modules/@types/uglify-js Completed in 4ms
+158 timing idealTree:node_modules/@types/verror Completed in 0ms
+159 timing idealTree:node_modules/@types/wordwrap Completed in 0ms
+160 timing idealTree:node_modules/source-map Completed in 0ms
+161 timing idealTree:buildDeps Completed in 150ms
+162 timing idealTree:fixDepFlags Completed in 2ms
+163 timing idealTree Completed in 1373ms
+164 timing reify:loadTrees Completed in 1374ms
+165 timing reify:diffTrees Completed in 3ms
+166 silly reify mark retired [
+166 silly reify   '/home/user225/.cache/typescript/3.8/node_modules/@types/tough-cookie'
+166 silly reify ]
+167 silly reify moves {
+167 silly reify   '/home/user225/.cache/typescript/3.8/node_modules/@types/tough-cookie': '/home/user225/.cache/typescript/3.8/node_modules/@types/.tough-cookie-kSq0FoLS'
+167 silly reify }
+168 timing reify:retireShallow Completed in 16ms
+169 timing reify:createSparse Completed in 9ms
+170 timing reify:loadBundles Completed in 0ms
+171 silly audit bulk request {
+171 silly audit   '@types/body-parser': [ '1.19.2' ],
+171 silly audit   '@types/chai': [ '4.3.0' ],
+171 silly audit   '@types/connect': [ '3.4.35' ],
+171 silly audit   '@types/cookiejar': [ '2.1.2' ],
+171 silly audit   '@types/express': [ '4.17.13' ],
+171 silly audit   '@types/express-serve-static-core': [ '4.17.31' ],
+171 silly audit   '@types/mime': [ '3.0.1' ],
+171 silly audit   '@types/mocha': [ '9.1.0' ],
+171 silly audit   '@types/node': [ '18.8.2' ],
+171 silly audit   '@types/qs': [ '6.9.7' ],
+171 silly audit   '@types/range-parser': [ '1.2.4' ],
+171 silly audit   '@types/request': [ '2.48.8' ],
+171 silly audit   '@types/serve-static': [ '1.15.0' ],
+171 silly audit   '@types/sinonjs__fake-timers': [ '8.1.1' ],
+171 silly audit   '@types/superagent': [ '4.1.15' ],
+171 silly audit   '@types/supertest': [ '2.0.11' ],
+171 silly audit   asynckit: [ '0.4.0' ],
+171 silly audit   'combined-stream': [ '1.0.8' ],
+171 silly audit   'delayed-stream': [ '1.0.0' ],
+171 silly audit   'form-data': [ '2.5.1' ],
+171 silly audit   'mime-db': [ '1.52.0' ],
+171 silly audit   'mime-types': [ '2.1.35' ],
+171 silly audit   'types-registry': [ '0.1.612' ],
+171 silly audit   '@types/asn1': [ '0.2.0' ],
+171 silly audit   '@types/assert-plus': [ '1.0.4' ],
+171 silly audit   '@types/aws4': [ '1.5.2' ],
+171 silly audit   '@types/caseless': [ '0.12.2' ],
+171 silly audit   '@types/dashdash': [ '1.14.1' ],
+171 silly audit   '@types/deep-equal': [ '1.0.1' ],
+171 silly audit   '@types/define-properties': [ '1.1.3' ],
+171 silly audit   '@types/extsprintf': [ '1.4.2' ],
+171 silly audit   '@types/forever-agent': [ '0.6.1' ],
+171 silly audit   '@types/function-bind': [ '1.1.6' ],
+171 silly audit   '@types/getpass': [ '0.1.1' ],
+171 silly audit   '@types/has': [ '1.0.0' ],
+171 silly audit   '@types/is-arguments': [ '1.0.0' ],
+171 silly audit   '@types/is-date-object': [ '1.0.2' ],
+171 silly audit   '@types/is-regex': [ '1.0.0' ],
+171 silly audit   '@types/isstream': [ '0.1.0' ],
+171 silly audit   '@types/jsbn': [ '1.2.30' ],
+171 silly audit   '@types/json-schema': [ '7.0.9' ],
+171 silly audit   '@types/json-stringify-safe': [ '5.0.0' ],
+171 silly audit   '@types/lodash': [ '4.14.179' ],
+171 silly audit   '@types/mkdirp': [ '1.0.2' ],
+171 silly audit   '@types/object-keys': [ '1.0.1' ],
+171 silly audit   '@types/psl': [ '1.1.0' ],
+171 silly audit   '@types/punycode': [ '2.1.0' ],
+171 silly audit   '@types/sshpk': [ '1.17.0' ],
+171 silly audit   '@types/tough-cookie': [ '4.0.1' ],
+171 silly audit   '@types/uglify-js': [ '3.13.1' ],
+171 silly audit   '@types/verror': [ '1.10.5' ],
+171 silly audit   '@types/wordwrap': [ '1.0.1' ],
+171 silly audit   'source-map': [ '0.6.1' ]
+171 silly audit }
+172 silly tarball no local data for @types/wordwrap@https://registry.npmjs.org/@types/wordwrap/-/wordwrap-1.0.1.tgz. Extracting by manifest.
+173 silly tarball no local data for @types/verror@https://registry.npmjs.org/@types/verror/-/verror-1.10.5.tgz. Extracting by manifest.
+174 silly tarball no local data for @types/uglify-js@https://registry.npmjs.org/@types/uglify-js/-/uglify-js-3.13.1.tgz. Extracting by manifest.
+175 silly tarball no local data for @types/sshpk@https://registry.npmjs.org/@types/sshpk/-/sshpk-1.17.0.tgz. Extracting by manifest.
+176 silly tarball no local data for @types/punycode@https://registry.npmjs.org/@types/punycode/-/punycode-2.1.0.tgz. Extracting by manifest.
+177 silly tarball no local data for @types/psl@https://registry.npmjs.org/@types/psl/-/psl-1.1.0.tgz. Extracting by manifest.
+178 silly tarball no local data for @types/object-keys@https://registry.npmjs.org/@types/object-keys/-/object-keys-1.0.1.tgz. Extracting by manifest.
+179 silly tarball no local data for @types/mkdirp@https://registry.npmjs.org/@types/mkdirp/-/mkdirp-1.0.2.tgz. Extracting by manifest.
+180 silly tarball no local data for @types/lodash@https://registry.npmjs.org/@types/lodash/-/lodash-4.14.179.tgz. Extracting by manifest.
+181 silly tarball no local data for @types/json-stringify-safe@https://registry.npmjs.org/@types/json-stringify-safe/-/json-stringify-safe-5.0.0.tgz. Extracting by manifest.
+182 silly tarball no local data for @types/json-schema@https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.9.tgz. Extracting by manifest.
+183 silly tarball no local data for @types/jsbn@https://registry.npmjs.org/@types/jsbn/-/jsbn-1.2.30.tgz. Extracting by manifest.
+184 silly tarball no local data for @types/isstream@https://registry.npmjs.org/@types/isstream/-/isstream-0.1.0.tgz. Extracting by manifest.
+185 silly tarball no local data for @types/is-regex@https://registry.npmjs.org/@types/is-regex/-/is-regex-1.0.0.tgz. Extracting by manifest.
+186 silly tarball no local data for @types/is-date-object@https://registry.npmjs.org/@types/is-date-object/-/is-date-object-1.0.2.tgz. Extracting by manifest.
+187 silly tarball no local data for @types/is-arguments@https://registry.npmjs.org/@types/is-arguments/-/is-arguments-1.0.0.tgz. Extracting by manifest.
+188 silly tarball no local data for @types/has@https://registry.npmjs.org/@types/has/-/has-1.0.0.tgz. Extracting by manifest.
+189 silly tarball no local data for @types/getpass@https://registry.npmjs.org/@types/getpass/-/getpass-0.1.1.tgz. Extracting by manifest.
+190 silly tarball no local data for @types/function-bind@https://registry.npmjs.org/@types/function-bind/-/function-bind-1.1.6.tgz. Extracting by manifest.
+191 silly tarball no local data for @types/forever-agent@https://registry.npmjs.org/@types/forever-agent/-/forever-agent-0.6.1.tgz. Extracting by manifest.
+192 silly tarball no local data for @types/extsprintf@https://registry.npmjs.org/@types/extsprintf/-/extsprintf-1.4.2.tgz. Extracting by manifest.
+193 silly tarball no local data for @types/define-properties@https://registry.npmjs.org/@types/define-properties/-/define-properties-1.1.3.tgz. Extracting by manifest.
+194 silly tarball no local data for @types/deep-equal@https://registry.npmjs.org/@types/deep-equal/-/deep-equal-1.0.1.tgz. Extracting by manifest.
+195 silly tarball no local data for @types/dashdash@https://registry.npmjs.org/@types/dashdash/-/dashdash-1.14.1.tgz. Extracting by manifest.
+196 silly tarball no local data for @types/aws4@https://registry.npmjs.org/@types/aws4/-/aws4-1.5.2.tgz. Extracting by manifest.
+197 silly tarball no local data for @types/assert-plus@https://registry.npmjs.org/@types/assert-plus/-/assert-plus-1.0.4.tgz. Extracting by manifest.
+198 silly tarball no local data for @types/asn1@https://registry.npmjs.org/@types/asn1/-/asn1-0.2.0.tgz. Extracting by manifest.
+199 silly tarball no local data for @types/tough-cookie@https://registry.npmjs.org/@types/tough-cookie/-/tough-cookie-4.0.1.tgz. Extracting by manifest.
+200 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 286ms
+201 timing auditReport:getReport Completed in 310ms
+202 silly audit report {}
+203 timing auditReport:init Completed in 0ms
+204 timing reify:audit Completed in 312ms
+205 http fetch GET 200 https://registry.npmjs.org/@types/uglify-js/-/uglify-js-3.13.1.tgz 320ms (cache miss)
+206 timing reifyNode:node_modules/@types/uglify-js Completed in 387ms
+207 http fetch GET 200 https://registry.npmjs.org/@types/verror/-/verror-1.10.5.tgz 330ms (cache miss)
+208 timing reifyNode:node_modules/@types/verror Completed in 392ms
+209 http fetch GET 200 https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.9.tgz 289ms (cache miss)
+210 timing reifyNode:node_modules/@types/json-schema Completed in 392ms
+211 http fetch GET 200 https://registry.npmjs.org/@types/has/-/has-1.0.0.tgz 387ms (cache miss)
+212 timing reifyNode:node_modules/@types/has Completed in 526ms
+213 http fetch GET 200 https://registry.npmjs.org/@types/wordwrap/-/wordwrap-1.0.1.tgz 491ms (cache miss)
+214 timing reifyNode:node_modules/@types/wordwrap Completed in 551ms
+215 http fetch GET 200 https://registry.npmjs.org/@types/psl/-/psl-1.1.0.tgz 560ms (cache miss)
+216 timing reifyNode:node_modules/@types/psl Completed in 640ms
+217 http fetch GET 200 https://registry.npmjs.org/@types/isstream/-/isstream-0.1.0.tgz 533ms (cache miss)
+218 timing reifyNode:node_modules/@types/isstream Completed in 646ms
+219 http fetch GET 200 https://registry.npmjs.org/@types/jsbn/-/jsbn-1.2.30.tgz 541ms (cache miss)
+220 timing reifyNode:node_modules/@types/jsbn Completed in 649ms
+221 http fetch GET 200 https://registry.npmjs.org/@types/is-date-object/-/is-date-object-1.0.2.tgz 524ms (cache miss)
+222 timing reifyNode:node_modules/@types/is-date-object Completed in 649ms
+223 http fetch GET 200 https://registry.npmjs.org/@types/is-regex/-/is-regex-1.0.0.tgz 533ms (cache miss)
+224 timing reifyNode:node_modules/@types/is-regex Completed in 650ms
+225 http fetch GET 200 https://registry.npmjs.org/@types/object-keys/-/object-keys-1.0.1.tgz 568ms (cache miss)
+226 timing reifyNode:node_modules/@types/object-keys Completed in 652ms
+227 http fetch GET 200 https://registry.npmjs.org/@types/deep-equal/-/deep-equal-1.0.1.tgz 475ms (cache miss)
+228 timing reifyNode:node_modules/@types/deep-equal Completed in 652ms
+229 http fetch GET 200 https://registry.npmjs.org/@types/is-arguments/-/is-arguments-1.0.0.tgz 523ms (cache miss)
+230 timing reifyNode:node_modules/@types/is-arguments Completed in 653ms
+231 http fetch GET 200 https://registry.npmjs.org/@types/function-bind/-/function-bind-1.1.6.tgz 507ms (cache miss)
+232 timing reifyNode:node_modules/@types/function-bind Completed in 653ms
+233 http fetch GET 200 https://registry.npmjs.org/@types/sshpk/-/sshpk-1.17.0.tgz 587ms (cache miss)
+234 timing reifyNode:node_modules/@types/sshpk Completed in 658ms
+235 http fetch GET 200 https://registry.npmjs.org/@types/extsprintf/-/extsprintf-1.4.2.tgz 486ms (cache miss)
+236 timing reifyNode:node_modules/@types/extsprintf Completed in 657ms
+237 http fetch GET 200 https://registry.npmjs.org/@types/forever-agent/-/forever-agent-0.6.1.tgz 491ms (cache miss)
+238 timing reifyNode:node_modules/@types/forever-agent Completed in 658ms
+239 http fetch GET 200 https://registry.npmjs.org/@types/getpass/-/getpass-0.1.1.tgz 517ms (cache miss)
+240 timing reifyNode:node_modules/@types/getpass Completed in 660ms
+241 http fetch GET 200 https://registry.npmjs.org/@types/json-stringify-safe/-/json-stringify-safe-5.0.0.tgz 563ms (cache miss)
+242 timing reifyNode:node_modules/@types/json-stringify-safe Completed in 662ms
+243 http fetch GET 200 https://registry.npmjs.org/@types/dashdash/-/dashdash-1.14.1.tgz 483ms (cache miss)
+244 timing reifyNode:node_modules/@types/dashdash Completed in 664ms
+245 http fetch GET 200 https://registry.npmjs.org/@types/define-properties/-/define-properties-1.1.3.tgz 491ms (cache miss)
+246 timing reifyNode:node_modules/@types/define-properties Completed in 665ms
+247 http fetch GET 200 https://registry.npmjs.org/@types/assert-plus/-/assert-plus-1.0.4.tgz 481ms (cache miss)
+248 timing reifyNode:node_modules/@types/assert-plus Completed in 665ms
+249 http fetch GET 200 https://registry.npmjs.org/@types/aws4/-/aws4-1.5.2.tgz 486ms (cache miss)
+250 timing reifyNode:node_modules/@types/aws4 Completed in 669ms
+251 http fetch GET 200 https://registry.npmjs.org/@types/punycode/-/punycode-2.1.0.tgz 614ms (cache miss)
+252 timing reifyNode:node_modules/@types/punycode Completed in 690ms
+253 timing reifyNode:node_modules/source-map Completed in 800ms
+254 http fetch GET 200 https://registry.npmjs.org/@types/mkdirp/-/mkdirp-1.0.2.tgz 744ms (cache miss)
+255 timing reifyNode:node_modules/@types/mkdirp Completed in 834ms
+256 http fetch GET 200 https://registry.npmjs.org/@types/asn1/-/asn1-0.2.0.tgz 696ms (cache miss)
+257 timing reifyNode:node_modules/@types/asn1 Completed in 885ms
+258 http fetch GET 200 https://registry.npmjs.org/@types/tough-cookie/-/tough-cookie-4.0.1.tgz 776ms (cache miss)
+259 timing reifyNode:node_modules/@types/tough-cookie Completed in 967ms
+260 http fetch GET 200 https://registry.npmjs.org/@types/lodash/-/lodash-4.14.179.tgz 2271ms (cache miss)
+261 timing reifyNode:node_modules/@types/lodash Completed in 2370ms
+262 timing reify:unpack Completed in 2372ms
+263 timing reify:unretire Completed in 1ms
+264 timing build:queue Completed in 9ms
+265 timing build:deps Completed in 10ms
+266 timing build Completed in 13ms
+267 timing reify:build Completed in 18ms
+268 timing reify:trash Completed in 10ms
+269 timing reify:save Completed in 313ms
+270 timing reify Completed in 4204ms
+271 silly ADD node_modules/source-map
+272 silly ADD node_modules/@types/wordwrap
+273 silly ADD node_modules/@types/verror
+274 silly ADD node_modules/@types/uglify-js
+275 silly ADD node_modules/@types/sshpk
+276 silly ADD node_modules/@types/punycode
+277 silly ADD node_modules/@types/psl
+278 silly ADD node_modules/@types/object-keys
+279 silly ADD node_modules/@types/mkdirp
+280 silly ADD node_modules/@types/lodash
+281 silly ADD node_modules/@types/json-stringify-safe
+282 silly ADD node_modules/@types/json-schema
+283 silly ADD node_modules/@types/jsbn
+284 silly ADD node_modules/@types/isstream
+285 silly ADD node_modules/@types/is-regex
+286 silly ADD node_modules/@types/is-date-object
+287 silly ADD node_modules/@types/is-arguments
+288 silly ADD node_modules/@types/has
+289 silly ADD node_modules/@types/getpass
+290 silly ADD node_modules/@types/function-bind
+291 silly ADD node_modules/@types/forever-agent
+292 silly ADD node_modules/@types/extsprintf
+293 silly ADD node_modules/@types/define-properties
+294 silly ADD node_modules/@types/deep-equal
+295 silly ADD node_modules/@types/dashdash
+296 silly ADD node_modules/@types/aws4
+297 silly ADD node_modules/@types/assert-plus
+298 silly ADD node_modules/@types/asn1
+299 silly CHANGE node_modules/@types/tough-cookie
+300 timing command:install Completed in 4235ms
+301 verbose exit 0
+302 timing npm Completed in 4417ms
+303 info ok

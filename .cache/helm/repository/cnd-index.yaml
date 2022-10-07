@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  mario-chart:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2022-09-24T13:12:58.259460159Z"
+    description: A Helm chart to install Super Mario on Kubernetes
+    digest: abd98addb8058f4c52cdf26b3f896a10761355fcced5afa3a0752e61a25935a9
+    name: mario-chart
+    type: application
+    urls:
+    - mario-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-09-24T13:12:58.25771396Z"
